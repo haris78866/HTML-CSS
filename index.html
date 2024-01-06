@@ -1,0 +1,191 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta name="author" content="Haris">
+    <meta name="description" content="This is my page containing all the things I am learning as I learn HTML.">
+    <title>My First Web Page</title>
+    <link rel="icon" href="path/to/favicon.ico" type="image/x-icon">
+    <link rel="stylesheet" href="main.css" type="text/css">
+</head>
+
+<body>
+    <h1>Hello World</h1>
+    <hr>
+    <h3>Daily Schedule</h3>
+    <p>This is my first web page.</p>
+    <p>I have only one week to learn something new<em> maybe I will be done in 1 month</em></p>
+    <hr>
+    <p>Let me tell you something</p>
+    <br>&nbsp;&nbsp;...I learn how to develop web pages.
+    <br>&nbsp;&nbsp;...I am interested.
+    <br>&nbsp;&nbsp;...Come on.
+    <hr>
+    &lt;&lt;&copy;Haris&gt;&gt;
+    <hr>
+    <!-- Headings -->
+    <h2>Countries I Have to Visit</h2>
+    <address>
+        North Drive 450m Belly House <br>
+        South DC 10m Lords House
+    </address>
+    <hr>
+    <!-- To create lists -->
+    <ul>
+        <li>Haris</li>
+        <li>Maaz</li>
+    </ul>
+
+    <ol>
+        <li>Haris</li>
+        <li>Maaz</li>
+    </ol>
+    <hr>
+    <!-- Detail list elements -->
+    <article id="place">
+        <dl>
+            <dt>North Pole</dt>
+            <dd>Too cold</dd>
+
+            <dt>South Pole</dt>
+            <dd>Also too cold</dd>
+        </dl>
+
+        <hr>
+        <!-- Anchor tags -->
+        <a href="https://github.com/haris78866">Github</a>
+        <a href="about.html">My Page</a>
+    </article>
+    <hr>
+    <!-- Navigation -->
+    <nav>
+        <ul>
+            <li>
+                <a href="#place">Destination</a>
+            </li>
+        </ul>
+    </nav>
+    <hr>
+    <p>
+        <ol>
+            <li> <a href="mailto:arainharis151@gmail.com">Email</a> </li>
+            <li> <a href="tel:04385680072">Contact</a></li>
+            <li>
+                <a href="https://www.google.com" target="_blank">Visit Google</a>
+            </li>
+        </ol>
+    </p>
+
+    <aside>
+        <details>
+            <summary>Guess the number of hours I code per day </summary>
+            <p>I code probably more than <time datetime="08:00">8 am</time></p>
+        </details>
+    </aside>
+
+    <hr>
+    <p>This is my first web page </p>
+    <figure>
+        <img src="18ea2fc850ace5bdc8b9bdf971dd906e.jpg" alt="html logo" title="I am learning HTML " width="200"
+            height="300" loading="lazy">
+        <figcaption>
+            MY FAV CAR INSHA ALAH ONE DAY I HAVE TO BUY
+        </figcaption>
+    </figure>
+
+    <table>
+        <caption>Daily Schedule</caption>
+        <thead>
+            <tr>
+                <th>Days</th>
+                <th>Time</th>
+                <th>Activity</th>
+            </tr>
+        </thead>
+        <tbody>
+            <tr>
+                <td>Morning</td>
+                <td>
+                    <time datetime="08:00">8 am</time>-<time datetime="11:00">11 am</time>
+                </td>
+                <td>Write code</td>
+            </tr>
+            <tr>
+                <td>Afternoon</td>
+                <td>
+                    <time datetime="11:00">11 am</time>
+                    <time datetime="12:00">12 am</time>
+                </td>
+                <td>Eat lunch</td>
+            </tr>
+            <tr>
+                <td>Evening</td>
+                <td>
+                    <time datetime="12:00">12 am</time>-<time datetime="21:00">9 pm</time>
+                </td>
+                <td>Other studies</td>
+            </tr>
+        </tbody>
+        <tfoot>
+            <tr>
+                <td colspan="3">And that's what I do every day, 5 days a week - just eat, sleep, code, and recharge!</td>
+            </tr>
+        </tfoot>
+    </table>
+
+    <p>
+        <a href="#">&nbsp;&nbsp;&nbsp;Back to Top</a>
+    </p>
+
+    <form action="https://httpbin.org/get" method="get">
+        <label for="first-name">First Name</label>
+        <input type="text" name="first-name"> <br>
+        <label for="password">Password</label>
+        <input type="password" name="password"> <br>
+        <label for="email">Email</label>
+        <input type="email" name="email"> <br>
+
+        <label for="fav-drinks">Fav Drinks</label>
+        <select name="coffee" id="coffee">
+            <option value="regular">Regular</option>
+            <option value="hot-coffee">Hot Coffee</option>
+            <option value="latte">Latte</option>
+            <option value="americano">Americano</option>
+        </select> <br>
+
+        <fieldset>
+            <legend>What is your favorite food?</legend>
+            <p>
+                <input type="radio" name="food" id="pizza" value="pizza">
+                <label for="pizza">Pizza</label>
+            </p>
+
+            <p>
+                <input type="radio" name="food" id="burger" value="burger">
+                <label for="burger">Burger</label>
+            </p>
+
+            <p>
+                <input type="checkbox" name="food" id="wings" value="wings">
+                <label for="wings">Wings</label>
+            </p>
+
+            <p>
+                <input type="radio" name="food" id="others" value="others">
+                <label for="others">Others</label>
+            </p>
+        </fieldset>
+
+        <fieldset>
+       <legend>send me a note </legend>
+       <label for="meassage">your meassage</label>
+       <textarea  name="meassage" id="meassage" cols="30" rows="20" placeholder="type your message here"></textarea>
+<br>
+<button type="submit">Submit</button>
+<button type="reset">reset</button> 
+
+        </fieldset>
+    </form>
+</body>
+
+</html>
